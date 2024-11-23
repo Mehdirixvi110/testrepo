@@ -6,7 +6,7 @@ import dill
 from sklearn.pipeline import Pipeline
 
 # Load the pretrained model
-with open("https://github.com/Mehdirixvi110/testrepo/blob/main/pipeline.pkl") as file:
+with open("pipeline.pkl") as file:
     model = dill.load(file)
 
 # Load the feature dictionary
