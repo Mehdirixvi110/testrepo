@@ -6,11 +6,11 @@ import dill
 from sklearn.pipeline import Pipeline
 
 # Load the pretrained model
-with open("C:/Users/Mehdi Abbas/Downloads/churnpredict/pipeline.pkl", "rb") as file:
+with open("https://github.com/Mehdirixvi110/testrepo/blob/main/pipeline.pkl") as file:
     model = dill.load(file)
 
 # Load the feature dictionary
-with open("C:/Users/Mehdi Abbas/Downloads/churnpredict/my_feature_dict.pkl", "rb") as file:
+with open("https://github.com/Mehdirixvi110/testrepo/blob/main/my_feature_dict.pkl", "rb") as file:
     my_feature_dict = joblib.load(file)
 
 # Function to predict churn
