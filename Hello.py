@@ -10,7 +10,7 @@ with open("pipeline.pkl") as file:
     model = dill.load(file)
 
 # Load the feature dictionary
-with open("https://github.com/Mehdirixvi110/testrepo/blob/main/my_feature_dict.pkl", "rb") as file:
+with open("my_feature_dict.pkl", "rb") as file:
     my_feature_dict = joblib.load(file)
 
 # Function to predict churn
