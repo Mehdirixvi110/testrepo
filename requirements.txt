@@ -4,3 +4,4 @@ scikit-learn==1.5.2
 numpy==1.19.5
 matplotlib==3.9.2
 dill==0.3.9
+wheel==0.44.0
